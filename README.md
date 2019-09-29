@@ -1,5 +1,5 @@
-# UseFullTools
-List of usefull tools for dev
+# UseFulTools
+List of useful tools for dev
  
 
 ## Back
