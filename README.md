@@ -69,8 +69,11 @@ List of useful tools for dev
     * SAML DevTools : écoute les requêtes SAML / SSO : https://chrome.google.com/webstore/detail/saml-devtools-extension/jndllhgbinhiiddokbeoeepbppdnhhio
 * Logiciels
     * Expresso : Aide à la redaction de regex http://www.ultrapico.com/Index.htm
-    * JetBrain DotPeek : desassembler une dll
+    * JetBrain DotPeek : Désassemblage de DLL
+    * ILSpy : Désassemblage de DLL
     * Winmerge : comparaison de fichiers et fusion
+    * Postman : Outil de test d'API
+    * CMDER : Console windows plus poussée que celle par défaut
 * Autre
     * FiraCode : fonts avec ligature (https://github.com/tonsky/FiraCode), peut s'appliquer à n'importe quel IDE. Plusieurs alternatives Hasklig, PragmataPro…
 
