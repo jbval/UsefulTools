@@ -57,12 +57,14 @@ List of useful tools for dev
     * Import Cost : affiche la taille des imports
     * Auto Close Tag
     * Cucumber : Coloration syntaxique pour les fichiers features (Commande "Change Language Mode" -> feature)
+    * VSCode Icons : Ajout d'icônes de fichiers / dossiers
 
 
 ## Divers
 * Extensions Google Chrome
     * :star: Augury : extension de chrome dev tools pour debugger angular 2+
     * Angular Gauntlets : extension de chrome dev tools pour debugger angular 2+ dans l'inspecteur d'élément
+    * Vue Devtools : Outil pour débugger et inspecter les composants VueJS
     * VisBug : debug visuel html
     * Page Load Time : temps de chargement des pages : https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig
     * Json Formatter : formattage du Json : https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
@@ -74,6 +76,7 @@ List of useful tools for dev
     * Winmerge : comparaison de fichiers et fusion
     * Postman : Outil de test d'API
     * CMDER : Console windows plus poussée que celle par défaut
+    * mTail : Outil facilitant la lecture d'un fichier de log sur Windows (simule la commande tail sur Linux)
 * Autre
     * FiraCode : fonts avec ligature (https://github.com/tonsky/FiraCode), peut s'appliquer à n'importe quel IDE. Plusieurs alternatives Hasklig, PragmataPro…
 
