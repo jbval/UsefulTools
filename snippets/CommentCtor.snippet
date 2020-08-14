@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Cctor</Title>
+      <Shortcut>cctor</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>classname</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+          <Default>ClassNamePlaceholder</Default>
+        </Literal>
+        <Literal>
+          <ID>paramCtor</ID>
+          <ToolTip>Paramètres du ctor.</ToolTip>
+          <Default>Paramètres</Default>
+        </Literal>
+        <Literal>
+          <ID>paramCtorDesc</ID>
+          <ToolTip>Description du paramètre du ctor.</ToolTip>
+          <Default>Description</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[ /// <summary>
+        /// Crée une nouvelle instance de <see cref="$classname$"/>
+        ///</summary>
+        /// <param name="$paramCtor$">$paramCtorDesc$</param>
+        $end$
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
