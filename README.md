@@ -82,8 +82,7 @@ List of useful tools for dev
     * Enrichir la ligne de commande : https://ohmyposh.dev
     * Ajout des infos git sur ohmyposh : https://github.com/dahlbyk/posh-git
 
-
-
+* [Commandes Git](Git.md) 
 
 
 
