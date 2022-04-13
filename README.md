@@ -79,6 +79,8 @@ List of useful tools for dev
     * mTail : Outil facilitant la lecture d'un fichier de log sur Windows (simule la commande tail sur Linux)
 * Autre
     * FiraCode : fonts avec ligature (https://github.com/tonsky/FiraCode), peut s'appliquer à n'importe quel IDE. Plusieurs alternatives Hasklig, PragmataPro…
+    * Enrichir la ligne de commande : https://ohmyposh.dev
+    * Ajout des infos git sur ohmyposh : https://github.com/dahlbyk/posh-git
 
 
 
