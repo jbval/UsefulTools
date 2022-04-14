@@ -1,8 +1,4 @@
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - README.md
-  - GIT.md
+theme: jekyll-theme-cayman
+markdown: GFM
+title: UseFull tools
+description: A list of tools and tips for dev
