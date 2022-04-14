@@ -31,7 +31,11 @@
 | git checkout branchecible                                            | Bascule sur la bonne branche                                                                 |
 | git merge --ff-only hotfixMauvaiseBranche                            | Fusion du hotfix sur la bonne branche                                                        |
 | git branch -d hotfixMauvaiseBranche                                  | Suppression de la branche de hotfix                                                          |
-
+## Supprimer les branches locales orphelines de branche distantes 
+Prune supprime uniquement les branche du dossier origin local
+```
+git branch -vv |Select-String -Pattern  ': gone]'  |  % {$_.ToString()} | Select-String -Pattern '(?:\s*)([\w\-\/]*)'| % {$_.Matches}| %{$_.Groups[1]}| %{$_.Value} | % { git branch -D $_}
+```
 
 
 ## Rebase vs Merge
