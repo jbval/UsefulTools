@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-markdown: GFM
+markdown: kramdown
 title: UseFull tools
 description: A list of tools and tips for dev
