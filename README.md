@@ -1,7 +1,8 @@
+
+[Accueil](README.md) [Commandes Git](Git.md) [TypeScript](Typescript.md) 
 # UseFulTools
 List of useful tools for dev
  
-
 ## Back
 * Visual Studio
     * :star: SpecFlow : Facilite la rédaction des tests via Gherkin  (plugin + nuget)
@@ -82,7 +83,7 @@ List of useful tools for dev
     * Enrichir la ligne de commande : https://ohmyposh.dev
     * Ajout des infos git sur ohmyposh : https://github.com/dahlbyk/posh-git
 
-* [Commandes Git](Git.md) 
+
 
 
 
