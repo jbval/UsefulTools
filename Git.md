@@ -1,3 +1,5 @@
+[Accueil](README.md) [Commandes Git](Git.md) [TypeScript](Typescript.md) 
+
 # Commandes Git
 
 | Commande                              | Description                                                                                                          |
@@ -33,8 +35,8 @@
 | git branch -d hotfixMauvaiseBranche                                  | Suppression de la branche de hotfix                                                          |
 ## Supprimer les branches locales orphelines de branche distantes 
 Prune supprime uniquement les branche du dossier origin local
-```
-git branch -vv |Select-String -Pattern  ': gone]'  |  % {$_.ToString()} | Select-String -Pattern '(?:\s*)([\w\-\/]*)'| % {$_.Matches}| %{$_.Groups[1]}| %{$_.Value} | % { git branch -D $_}
+```ps1
+git branch -vv | Select-String -Pattern  ': gone]'  |  % {$_.ToString()} | Select-String -Pattern '(?:\s*)([\w\-\/]*)'| % {$_.Matches}| %{$_.Groups[1]}| %{$_.Value} | % { git branch -D $_}
 ```
 
 
