@@ -52,11 +52,14 @@
     * :star: SonarLint : remonte les erreurs/bugs/code smells basé sur les règles sonar
     * :star: Visual Studio Keymap : Retrouver les raccourcis clavier de Visual Studio
     * Bracket Pair Colorizer : coloration des parenthèses par couple
-    * GitLens : complément de gestion des dépôts GIT
+    * :star: GitLens : complément de gestion des dépôts GIT
+    * :star: i18n Ally : Edition et affichage live des libellés traduit par i18
     * Indent-rainbow : affiche les tabulations de couleurs différentes par niveau
     * Settings Sync : pour ceux qui veulent garder les mêmes settings sur différents postes via une sauvegarde sur Gist
     * Import Cost : affiche la taille des imports
     * Auto Close Tag
+    * Code tour : Préparer une demonstration/formation avec déroulé du code entouré de commentaires hors code
+    * Thunder Client : Equivalent de Postman pour tester les api rest en mode intégré 
     * Cucumber : Coloration syntaxique pour les fichiers features (Commande "Change Language Mode" -> feature)
     * VSCode Icons : Ajout d'icônes de fichiers / dossiers
 
